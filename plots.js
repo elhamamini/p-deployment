@@ -25,12 +25,7 @@ var data = [trace1];
 // Apply the group bar mode to the layout
 var layout = {
   title: "Greek gods search results",
-  margin: {
-    l: 100,
-    r: 100,
-    t: 100,
-    b: 100
-  }
+  
 };
 
 // Render the plot to the div tag with id "plot"

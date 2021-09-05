@@ -1,0 +1,44 @@
+body {
+    background-color: lightgray;
+    /* color: #f7f7f7; */
+    margin: 5mm;
+  }
+
+.jumbotron {
+    background-image: url("viruse.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+  }
+
+
+.container{
+    margin: 3mm;
+    margin-left:8mm;
+    
+}
+
+.pl{
+    margin:3mm;
+    margin-top:10mm;
+    border-color: darkslategrey;
+    
+}
+.pannel-title{
+    padding :1mm;
+    color:navy;
+}
+#gauge{
+    margin-left:15mm;
+    border-color: darkslategrey;
+}
+h4{
+    margin-left:10mm;
+}
+.well{
+    margin-top:10mm;
+}
+
+#bubble{
+    border-color: darkslategrey;
+    border-style: solid 1mm ;
+}
