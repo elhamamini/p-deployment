@@ -24,12 +24,12 @@ function init() {
 init();
  d3.selectAll("#selDataset").on("change",handleChange);
 
-function handleChange(){
-  let selector=d3.selectAll("#selDataset")
-  let updateSample=selector.property("value");
-  optionChanged(updateSample);
+// function handleChange(){
+//   let selector=d3.selectAll("#selDataset")
+//   let updateSample=selector.property("value");
+//   optionChanged(updateSample);
 
-}
+// }
 
 function optionChanged(newSample) {
   // Fetch new data each time a new sample is selected
@@ -142,6 +142,11 @@ function buildCharts(sample) {
           value:washingFreq,
           type:"indicator",
           mode:"gauge+number",
+         
+            labels: ['8-9','7-8','6-7','5-6', '4-5', '3-4', '2-3',
+            '1-2', '0-1', ''],
+            hoverinfo: 'label',
+          
 
           gauge: {
             axis: { range: [null, 10], tickwidth: 1, tickcolor: "royalblue"  },
